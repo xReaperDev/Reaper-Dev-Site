@@ -1,5 +1,30 @@
+ /* #region ---------------------Tag Selector-------------------------------*/
+
  body {
-     background-color: #EAF6F6;
+     background-color: #DBCBD8;
+     margin: 0;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ div {
+     background-color: #e2ffffed;
+     padding-left: 20px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+ }
+
+ h1 {
+     color: black;
+ }
+
+ h3 {
+
+     color: black;
+
+ }
+
+ h4 {
+     margin: none;
  }
 
  hr {
@@ -7,14 +32,83 @@
      border-bottom-style: dotted;
      border-width: 6px;
      border-color: grey;
-     height: none;
      width: 3%;
+     margin-bottom: 0;
  }
 
- h3 {
-     color: #66bfbf;
+
+
+ /* #region  a<> link style */
+ a:hover {
+     color: gold;
+
  }
 
- h1 {
-     color: black;
+ a:visited {
+     color: gold;
+
  }
+
+ a:link {
+     text-decoration: none;
+ }
+
+ /* #endregion */
+
+
+
+ /* #endregion */
+
+ /* #region ----------------------Class Selector ---------------------------*/
+ .divProfile {
+     background-color: #394648;
+     position: relative;
+ }
+
+ .profileTable {
+     margin-left: 27%;
+ }
+
+ .profileText {
+     color: white;
+ }
+
+ .profileBold {
+     color: #6cc0d1;
+ }
+
+ .divAbout {
+     background-color: #cae7b9;
+     position: relative;
+
+
+ }
+
+
+
+
+
+
+ /* #endregion */
+
+ /* #region ----------------------ID Selector ---------------------------*/
+
+ #alias {
+
+     color: white;
+ }
+
+ #top-cloud {
+     position: absolute;
+     left: 50px;
+ }
+
+ #bottom-cloud {
+     position: absolute;
+     right: 50px;
+     bottom: 0px;
+ }
+
+
+
+ /* #endregion */
