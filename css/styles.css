@@ -39,19 +39,33 @@
 
 
  /* #region  a<> link style */
- a:hover {
-     color: gold;
 
+ a {
+     color: rgb(0, 217, 255);
  }
 
+ /* Unvisited link */
  a:visited {
-     color: gold;
+     color: rgb(0, 217, 255);
+ }
 
+ /* Visited link */
+ a:hover {
+     color: gold;
+ }
+
+ /* Mouse over link */
+ a:active {
+     color: rgb(214, 183, 4);
  }
 
  a:link {
      text-decoration: none;
  }
+
+
+
+ /* Selected link */
 
  /* #endregion */
 
