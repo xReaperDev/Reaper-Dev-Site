@@ -7,7 +7,6 @@
  }
 
  div {
-     background-color: #e2ffffed;
      padding-left: 20px;
      padding-bottom: 10px;
      padding-top: 10px;
@@ -24,7 +23,7 @@
  }
 
  h4 {
-     margin: none;
+     text-align: center;
  }
 
  hr {
@@ -32,10 +31,9 @@
      border-bottom-style: dotted;
      border-width: 6px;
      border-color: grey;
-     width: 3%;
+     width: 5%;
      margin-bottom: 0;
  }
-
 
 
  /* #region  a<> link style */
@@ -74,35 +72,47 @@
  /* #endregion */
 
  /* #region ----------------------Class Selector ---------------------------*/
- .divProfile {
+
+ .center-div {
+     width: 45%;
+     margin: auto;
+ }
+
+ .div-profile-background {
      background-color: #394648;
      position: relative;
  }
 
- .profileTable {
-     margin-left: 27%;
- }
-
- .profileText {
-     color: white;
- }
-
- .profileBold {
-     color: #6cc0d1;
- }
-
- .divAbout {
+ .div-about-background {
      background-color: #cae7b9;
      position: relative;
  }
+
+ .div-panel {
+     margin-top: 20px;
+     margin-bottom: 20px;
+     background-color: white;
+     border-radius: 20px;
+ }
+
+
+ .profile-text {
+     color: white;
+
+ }
+
+ .profile-bold {
+     color: #6cc0d1;
+ }
+
 
  .link-background {
      background-color: black;
      border-radius: 6px;
      padding-left: 5px;
-     padding-right: 5px;
-     padding-top: 3px;
-     padding-bottom: 3px;
+     padding-right: 3px;
+     padding-top: 1px;
+     padding-bottom: 1px;
  }
 
 
@@ -115,6 +125,7 @@
  #alias {
 
      color: white;
+
  }
 
  #top-cloud {
